@@ -1,5 +1,5 @@
 import Link from "next/link";
-const Post = ({ post }) => {
+export default function Post({ post }) {
     return (
         <div>
             <div>
@@ -13,6 +13,4 @@ const Post = ({ post }) => {
             </div>
         </div>
     );
-};
-
-export default Post;
+}
